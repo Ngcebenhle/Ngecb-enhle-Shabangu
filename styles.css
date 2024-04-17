@@ -62,3 +62,26 @@
   opacity: 80%;
   transition: all 0.5s;
 }
+#contact{
+position: relative;
+}
+.watermark{
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 50%;
+  position: absolute;
+  top: 0;
+}
+.arrow{
+  height: 30px;
+  width: 50px;
+ 
+  margin-right: 25px;
+  margin-bottom: 12px;
+}
+.linkAddress:hover{
+  color: rgba(13, 110, 253, 1);
+  font-size: 20px;
+}
